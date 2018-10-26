@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "react-redux": "^5.0.7",
+    "react-spring": "^6.1.2",
     "redux": "^4.0.1",
     "styled-components": "^4.0.2"
   }

@@ -8,18 +8,19 @@ export default class TestComponent extends Component {
     return (
       <div>
         <p>test</p>
-        
-        <Toggle>
-          {({ on, toggle }) => (
-            <Fragment>
-              <button onClick={toggle}>Open</button>
-              <Modal on={on} toggle={toggle}>
-                <h1>modal</h1>
-              </Modal>
-            </Fragment>
-          )}
-        </Toggle>
-        
+
+        <section>
+          <Toggle>
+            {({ on, toggle }) => (
+              <Fragment>
+                <button onClick={toggle}>Show / Hide</button>
+                <Modal on={on} toggle={toggle}>
+                  <h1>Modal</h1>
+                </Modal>
+              </Fragment>
+            )}
+          </Toggle>
+        </section>
       </div>
     );
   }
